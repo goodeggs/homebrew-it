@@ -1,8 +1,8 @@
 
 class Gam < Formula
   homepage "https://github.com/jay0lee/GAM"
-  url "https://github.com/jay0lee/GAM/archive/v3.45.tar.gz"
-  version "3.45-2"
+  url "https://github.com/jay0lee/GAM/archive/v3.51.tar.gz"
+  version "3.51"
   sha256 "986d10ff134996de071633f34dc4d0d929844ed6bb896e168f818b43b107ce73"
   head "https://github.com/jay0lee/GAM.git"
 
@@ -14,7 +14,6 @@ class Gam < Formula
   end
 
   test do
-    system "#{bin}/gam | grep 'GAM 3.45'"
+    system "#{bin}/gam | grep 'GAM 3.51'"
   end
 end
-
