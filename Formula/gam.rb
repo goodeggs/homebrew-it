@@ -3,7 +3,7 @@ class Gam < Formula
   homepage "https://github.com/jay0lee/GAM"
   url "https://github.com/jay0lee/GAM/archive/v3.62.tar.gz"
   version "3.62"
-  sha256 "3c2512fa8d8c0c6c3a5e83a561b6198b807692567aea2f0ea1954c7a40665c49"
+  sha256 "10cc5008f241bf290d741fc04c79257a97dacac3e6cf9ffea41cf708fc945ec0"
   head "https://github.com/jay0lee/GAM.git"
 
   def install
