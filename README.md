@@ -13,3 +13,11 @@ brew tap goodeggs/it
 brew install gam
 ```
 
+## Update
+
+```
+brew uninstall gam 
+brew untap goodeggs/it
+brew tap goodeggs/it
+brew install gam
+```
